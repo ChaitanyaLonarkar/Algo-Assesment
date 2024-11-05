@@ -37,7 +37,7 @@ function Sidebar() {
             Forums
           </div>
         </li>
-        <li>
+        <li className="active">
           <div className="level">
             <IoClipboardOutline className="icon" />
             Upskill
