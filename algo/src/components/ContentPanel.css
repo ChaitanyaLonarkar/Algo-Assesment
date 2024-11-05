@@ -10,7 +10,9 @@
 .content-panel{
   width: -webkit-fill-available;
 }
-
+.content-panel .icon{
+  font-size: 22px;
+}
 .lesson {
   display: flex;
   justify-content: space-between;
@@ -35,11 +37,20 @@
 }
 .timer-level {
   display: flex;
-  gap: 15px;
+  gap: 10px;
 }
 .panel-2,.panel-3{
   margin: 10px 0;
   border: 1px solid #e0e0ff;
   border-radius: 7px;
+
+}
+.flex{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.content-panel .color{
+  color: #17384D;
 
 }
