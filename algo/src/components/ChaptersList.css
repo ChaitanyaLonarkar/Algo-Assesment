@@ -1,0 +1,38 @@
+.chapters-list {
+    width: 250px;
+    /* background-color: #f7f8fc; */
+    /* padding: 10px; */
+    border-radius: 5px;
+  }
+  
+  .chapters-list h3 {
+    padding: 18px 10px;
+    cursor: pointer;
+    font-weight: 400;
+    width: inherit;
+    margin-bottom: 5px;
+    border-bottom:1px solid #EFF5FF;
+  }
+  
+  .chapters-list .active{
+    background-color:  #EFF5FF;
+    ;
+    font-weight: bold;
+    border-radius: 5px;
+    border-bottom: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  .timer{
+      font-weight: 400;
+      color: #608AD2;
+      display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 16px;
+
+
+  }
+  .chapters-list .icon{
+    font-size: 22px;
+  }

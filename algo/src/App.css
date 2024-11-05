@@ -1,0 +1,29 @@
+*{
+  font-family: "DM Sans", sans-serif
+  /* font-family: "poppins"; */
+}
+.dashboard {
+  display: flex;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.content-wrapper {
+  margin-top: 20px;
+    border: 1px solid #a4e6ffa1;
+    border-radius: 10px;
+    padding: 30px;
+}
+.line{
+  width: -webkit-fill-available;
+  height: 1px;
+  background: #eae9ff80;
+  margin-bottom: 30px;
+}
+.dashboard-content {
+  display: flex;
+  gap: 20px;
+}
